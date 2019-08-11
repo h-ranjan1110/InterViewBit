@@ -3,6 +3,7 @@ int Solution::isInterleave(string A, string B, string C) {
     int m = B.length();
     int n = C.length();
     int dp[l + 1][m + 1];
+    // declaring dp as vector gives segmentation fault on IB so 2d array is used. 
     if ((l + m) != n) return 0;
     memset(dp, 0, sizeof(dp));
 

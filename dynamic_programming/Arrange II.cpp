@@ -1,5 +1,3 @@
-
-
     int Solution::arrange(string A, int B) {
         int n = A.length();
         // cout<<n;
